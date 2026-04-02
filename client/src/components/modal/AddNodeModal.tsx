@@ -36,7 +36,7 @@ export const AddNodeModal = ({
     if (isOpen) {
       formik.resetForm();
     }
-  }, [isOpen]);
+  }, [isOpen, formik]);
 
   if (!isOpen) return null;
 
