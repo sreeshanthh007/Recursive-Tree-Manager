@@ -1,5 +1,5 @@
 
-import { createNode } from "@services/node.service"
+import { createNode, getAllNodes } from "@services/node.service"
 import { HttpStatusCodes } from "@shared/constants/httpStatusCode"
 import { SUCCESS_MESSAGES } from "@shared/constants/messages"
 import { createNodeSchema } from "@validators/node.validator"
@@ -35,3 +35,19 @@ export const CreateNodeController = async (req: Request, res: Response, next: Ne
         next(error);
     }
 }
+
+
+export const GetAllNodesController = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+        const nodes = await getAllNodes();
+
+        res.status(HttpStatusCodes.OK).json({
+            success: true,
+            message: SUCCESS_MESSAGES.NODES_FETCHED_SUCCESSFULLY,
+            data: nodes
+        });
+    } catch (error) {
+        next(error);
+    }
+}
+
