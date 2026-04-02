@@ -50,6 +50,7 @@
     "@routes": "dist/routes",
     "@dto": "dist/dto",
     "@utils": "dist/utils",
+    "@shared":"dist/shared",
     "@validators": "dist/validators"
   }
 }
