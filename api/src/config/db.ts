@@ -9,12 +9,12 @@ import logger from "shared/utils/logger";
 
 const connectDB = async (): Promise<void> => {
   try {
-     await mongoose.connect(process.env.MONGO_URI as string);
-     logger.info("MongoDB Connected Successfully")
+     await mongoose.connect(ENV.MONGO_URI);
+     logger.info("MongoDB Connected Successfully");
   } catch (error) {
     logger.error("MongoDB connection failed:", error);
     process.exit(1);
   }
 };
 
-export default connectDB
+export default connectDB;

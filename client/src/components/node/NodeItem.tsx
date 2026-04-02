@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import type { Node } from '@/types/node';
 import { NodeTree } from './NodeTree';
 import { Button } from '@/components/ui/button';
@@ -10,7 +10,7 @@ interface NodeItemProps {
   onDeleteNode: (nodeId: string) => void;
 }
 
-export const NodeItem = ({ node, onAddNode, onDeleteNode }: NodeItemProps) => {
+export const NodeItem = memo(({ node, onAddNode, onDeleteNode }: NodeItemProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const hasChildren = node.children && node.children.length > 0;
@@ -69,4 +69,4 @@ export const NodeItem = ({ node, onAddNode, onDeleteNode }: NodeItemProps) => {
       )}
     </div>
   );
-};
+});

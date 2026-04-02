@@ -32,6 +32,6 @@ const NodeSchema = new Schema<INode>({
         type: Date,
         default: Date.now
     }
-})
+});
 
-export default model<INode>('Node', NodeSchema)
+export default model<INode>('Node', NodeSchema);
