@@ -65,8 +65,8 @@ Hierarchical Node Manager/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sreeshanthh007/Recursive-Tree-Manager.git
-   cd Recursive-Tree-Manager
+   git clone https://github.com/sreeshanthh007/hierarchical-node-manager.git
+   cd Hierarchical Node Manager
    ```
 
 2. **Backend Configuration**
