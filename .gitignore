@@ -1,0 +1,11 @@
+# global ignores
+node_modules/
+.env
+dist/
+build/
+
+# logs
+npm-debug.log
+
+# OS
+.DS_Store

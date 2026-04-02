@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es2020",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@config/*": [
+        "config/*"
+      ],
+      "@controllers/*": [
+        "controllers/*"
+      ],
+      "@middlewares/*": [
+        "middlewares/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@models/*": [
+        "models/*"
+      ],
+      "@routes/*": [
+        "routes/*"
+      ],
+      "@types/*": [
+        "types/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@validators/*": [
+        "validators/*"
+      ],
+      "@shared/*": [
+        "shared/*"
+      ],
+    },
+    "ignoreDeprecations": "6.0",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

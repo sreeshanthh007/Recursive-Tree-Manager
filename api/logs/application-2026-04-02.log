@@ -1,0 +1,184 @@
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:24:43"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:25:03"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:26:26"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.bqese.mongodb.net","level":"error","message":"MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-04-02 12:26:26"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:26:57"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.bqese.mongodb.net","level":"error","message":"MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-04-02 12:26:57"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:27:03"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.bqese.mongodb.net","level":"error","message":"MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-04-02 12:27:03"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:27:37"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.bqese.mongodb.net","level":"error","message":"MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-04-02 12:27:37"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:27:49"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.bqese.mongodb.net","level":"error","message":"MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-04-02 12:27:49"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:33:25"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.bqese.mongodb.net","level":"error","message":"MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-04-02 12:33:25"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:41:51"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.bqese.mongodb.net","level":"error","message":"MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-04-02 12:41:51"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:44:31"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.bqese.mongodb.net","level":"error","message":"MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.bqese.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-04-02 12:44:31"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:45:31"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:47:23"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:47:37"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:47:52"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:53:25"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:54:49"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:55:45"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:56:56"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:58:36"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 12:59:14"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:03:55"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:05:19"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:06:43"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:07:47"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:09:45"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:10:10"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:11:23"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:12:59"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:14:55"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:15:08"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:15:10"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:15:11"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:15:29"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:15:35"}
+{"level":"info","message":"","timestamp":"2026-04-02 13:15:35"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:15:39"}
+{"level":"info","message":"Mongo","timestamp":"2026-04-02 13:15:40"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:15:47"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:15:48"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:15:55"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:15:55"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:42:03"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:42:04"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:42:07"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:42:08"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:42:23"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:42:24"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:43:20"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:43:20"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:43:30"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:43:30"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:43:53"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:43:53"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:44:16"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:44:16"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:46:29"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:46:30"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:47:03"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:47:03"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:47:55"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:47:55"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:50:29"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:50:30"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:50:55"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:50:56"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:51:00"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:51:00"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:51:12"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:51:12"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:51:15"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:51:15"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:51:18"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:51:18"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:51:20"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:51:20"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:51:25"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:51:25"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:51:29"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:51:30"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:51:35"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:51:36"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:51:46"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:51:47"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:52:51"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:52:52"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:53:01"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:53:02"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:53:04"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:53:05"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:53:08"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:53:09"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:53:12"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:53:12"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:53:28"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:53:28"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:54:56"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:54:57"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:55:24"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:55:24"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:56:04"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:56:05"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:56:05"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 13:56:52"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 13:56:52"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:03:58"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:03:58"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:04:28"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:04:28"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:06:24"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:06:24"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:06:33"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:06:34"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:06:38"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:06:39"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:06:49"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:06:49"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:07:06"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:07:07"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:07:14"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:07:15"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:07:19"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:07:20"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:07:56"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:07:56"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:08:01"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:08:01"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:08:06"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:08:06"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:08:07"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:08:08"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:08:11"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:08:12"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:08:49"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:08:49"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:09:06"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:09:06"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:09:17"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:09:18"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:09:20"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:09:21"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:09:48"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:09:48"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:09:55"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:09:56"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:09:57"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:09:57"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:10:43"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:10:43"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:10:56"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:10:56"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:10:59"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:11:00"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:11:25"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:11:26"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:13:00"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:13:00"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:13:31"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:13:31"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:14:57"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:14:58"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:16:25"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:16:25"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:16:28"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:16:28"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:17:45"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:17:46"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:18:36"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:18:36"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:18:39"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:18:39"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:18:43"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:18:43"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:18:56"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:18:56"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-04-02 14:18:59"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2026-04-02 14:19:00"}
