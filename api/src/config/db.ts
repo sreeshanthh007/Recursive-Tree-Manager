@@ -2,7 +2,7 @@
 
 import mongoose from "mongoose";
 import { ENV } from "./config";
-import logger from "shared/utils/logger";
+import logger from "@shared/utils/logger";
 
 
 

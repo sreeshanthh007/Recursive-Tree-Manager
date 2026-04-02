@@ -1,7 +1,7 @@
 import { ENV } from "@config/config";
 import express from "express";
 import cors from "cors";
-import logger from 'shared/utils/logger';
+import logger from '@shared/utils/logger';
 import { errorMiddleware } from "@middlewares/error.middleware";
 import { rateLimiter } from "@middlewares/rateLimiter";
 import connectDB from "@config/db";
