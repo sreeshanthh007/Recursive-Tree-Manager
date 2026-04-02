@@ -5,6 +5,7 @@ import logger from 'shared/utils/logger';
 import { errorMiddleware } from "@middlewares/error.middleware";
 import { rateLimiter } from "@middlewares/rateLimiter";
 import connectDB from "@config/db";
+import morgan from "morgan"
 import Router from "@routes/node.route";
 if (ENV.NODE_ENV === 'production') {
   require('module-alias/register');
@@ -22,6 +23,8 @@ app.use(cors({
     origin:ENV.CLIENT_URL,
     credentials:true
 }));
+
+app.use(morgan("dev"))
 
 app.use(rateLimiter)
 
