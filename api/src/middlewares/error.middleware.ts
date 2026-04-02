@@ -4,10 +4,10 @@ import logger from "@shared/utils/logger";
 import { ZodError } from "zod";
 
 export const errorMiddleware = (
-  err: any,
+  err: Error & { isOperational?: boolean; statusCode?: number },
   req: Request,
   res: Response,
-  next: NextFunction
+  _next: NextFunction
 ) => {
   logger.error(`${req.method} ${req.url} - Error: ${err.message}`, { 
     stack: err.stack,
@@ -16,7 +16,7 @@ export const errorMiddleware = (
 
 
   if (err.isOperational) {
-    return res.status(err.statusCode).json({
+    return res.status(err.statusCode ?? HttpStatusCodes.INTERNAL_SERVER_ERROR).json({
       success: false,
       message: err.message,
     });

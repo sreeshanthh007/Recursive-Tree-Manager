@@ -1,49 +1,45 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { useNodes, useCreateNodeMutation, useDeleteNodeMutation } from '@/hooks/use-nodes';
 import { NodeTree } from '@/components/node/NodeTree';
 import Loading from '@/components/common/Loading';
 import ErrorView from '@/components/common/ErrorView';
 import ConfirmModal from '@/components/common/ConfirmModal';
 import { AddNodeModal } from '@/components/node/AddNodeModal';
-import { Button } from '@/components/ui/button';
+import { TreeHeader } from '@/components/node/TreeHeader';
+import { TreeContainer } from '@/components/node/TreeContainer';
+import { EmptyTreeState } from '@/components/node/EmptyTreeState';
 
 export const TreePage = () => {
-  
   const { data: nodes, isLoading, isError, refetch } = useNodes();
-
   const createNodeMutation = useCreateNodeMutation();
-
   const deleteNodeMutation = useDeleteNodeMutation();
 
   const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
-  
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
-
   const [nodeIdToDelete, setNodeIdToDelete] = useState<string | null>(null);
-
   const [parentNodeId, setParentNodeId] = useState<string | null>(null);
 
-  const handleAddNodeRequest = (parentId: string | null) => {
+  const handleAddNodeRequest = useCallback((parentId: string | null) => {
     setParentNodeId(parentId);
     setIsAddModalOpen(true);
-  };
+  }, []);
 
-  const handleConfirmAddNode = (name: string) => {
+  const handleConfirmAddNode = useCallback((name: string) => {
     createNodeMutation.mutate({ name, parentId: parentNodeId });
     setParentNodeId(null);
-  };
+  }, [createNodeMutation, parentNodeId]);
 
-  const handleDeleteRequest = (nodeId: string) => {
+  const handleDeleteRequest = useCallback((nodeId: string) => {
     setNodeIdToDelete(nodeId);
     setIsDeleteModalOpen(true);
-  };
+  }, []);
 
-  const confirmDelete = () => {
+  const confirmDelete = useCallback(() => {
     if (nodeIdToDelete) {
       deleteNodeMutation.mutate(nodeIdToDelete);
       setNodeIdToDelete(null);
     }
-  };
+  }, [deleteNodeMutation, nodeIdToDelete]);
 
   if (isLoading) {
     return (
@@ -62,37 +58,33 @@ export const TreePage = () => {
   }
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
-      <div className="mb-8 flex items-center justify-between">
-        <h1 className="text-3xl font-bold">Node Tree Manager</h1>
-        <Button
-          onClick={() => handleAddNodeRequest(null)}
-          className="font-semibold shadow-md active:scale-95 px-6 py-2"
-        >
-          Add Root Node
-        </Button>
-      </div>
+    <div className="min-h-screen bg-secondary/30 py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      {/* Background radial gradient */}
+      <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_top_right,_var(--accent-bg),_transparent_40%),_radial-gradient(circle_at_bottom_left,_var(--accent-bg),_transparent_40%)] opacity-30 pointer-events-none" />
+      
+      <div className="max-w-5xl mx-auto relative z-10">
+        <TreeHeader onAddRootNode={() => handleAddNodeRequest(null)} />
 
-      <div className="bg-card rounded-2xl border shadow-sm p-6">
-        {nodes && nodes.length > 0 ? (
-          <NodeTree
-            nodes={nodes}
-            onAddNode={handleAddNodeRequest}
-            onDeleteNode={handleDeleteRequest}
-          />
-        ) : (
-          <div className="text-center py-12">
-            <p className="text-muted-foreground font-medium mb-2">No nodes found.</p>
-            <p className="text-sm text-gray-400">Create a root node above to get started.</p>
-          </div>
-        )}
+        <TreeContainer>
+          {nodes && nodes.length > 0 ? (
+            <div className="space-y-4">
+              <NodeTree
+                nodes={nodes}
+                onAddNode={handleAddNodeRequest}
+                onDeleteNode={handleDeleteRequest}
+              />
+            </div>
+          ) : (
+            <EmptyTreeState />
+          )}
+        </TreeContainer>
       </div>
 
       <AddNodeModal
         isOpen={isAddModalOpen}
         onClose={() => setIsAddModalOpen(false)}
         onAdd={handleConfirmAddNode}
-        title={parentNodeId ? "Add Child Node" : "Add Root Node"}
+        title={parentNodeId ? "Create Child Node" : "Create Root Node"}
       />
 
       <ConfirmModal

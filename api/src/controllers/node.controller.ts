@@ -1,9 +1,9 @@
 
-import { createNode, getAllNodes } from "@services/node.service"
-import { HttpStatusCodes } from "@shared/constants/httpStatusCode"
-import { SUCCESS_MESSAGES } from "@shared/constants/messages"
-import { createNodeSchema } from "@validators/node.validator"
-import { NextFunction, Request, Response } from "express"
+import { createNode, deleteNode, getAllNodes } from "@services/node.service";
+import { HttpStatusCodes } from "@shared/constants/httpStatusCode";
+import { SUCCESS_MESSAGES } from "@shared/constants/messages";
+import { createNodeSchema } from "@validators/node.validator";
+import { NextFunction, Request, Response } from "express";
 
 
 
@@ -15,14 +15,14 @@ export const CreateNodeController = async (req: Request, res: Response, next: Ne
             res.status(HttpStatusCodes.BAD_REQUEST).json({
                 success: false,
                 message: result.error.issues[0].message
-            })
+            });
 
-            return
+            return;
         }
 
-        const data = result.data
+        const data = result.data;
 
-        await createNode(data?.name,data.parentId ?? null)
+        await createNode(data?.name,data.parentId ?? null);
 
         
 
@@ -34,7 +34,7 @@ export const CreateNodeController = async (req: Request, res: Response, next: Ne
     } catch (error) {
         next(error);
     }
-}
+};
 
 
 export const GetAllNodesController = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
@@ -49,5 +49,21 @@ export const GetAllNodesController = async (req: Request, res: Response, next: N
     } catch (error) {
         next(error);
     }
-}
+};
 
+
+
+export const DeleteNodeController = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+        const { id } = req.params as {id:string};
+
+        await deleteNode(id);
+
+        res.status(HttpStatusCodes.OK).json({
+            success: true,
+            message: SUCCESS_MESSAGES.NODE_DELETED_SUCCESSFULLY
+        });
+    } catch (error) {
+        next(error);
+    }
+};

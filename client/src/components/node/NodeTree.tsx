@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import type { Node } from '@/types/node';
 import { NodeItem } from './NodeItem';
 
@@ -9,7 +9,7 @@ interface NodeTreeProps {
   onDeleteNode: (nodeId: string) => void;
 }
 
-export const NodeTree: React.FC<NodeTreeProps> = ({ nodes, onAddNode, onDeleteNode }) => {
+export const NodeTree: React.FC<NodeTreeProps> = memo(({ nodes, onAddNode, onDeleteNode }) => {
   return (
     <div className="flex flex-col gap-2">
       {nodes.map((node) => (
@@ -22,4 +22,4 @@ export const NodeTree: React.FC<NodeTreeProps> = ({ nodes, onAddNode, onDeleteNo
       ))}
     </div>
   );
-};
+});
