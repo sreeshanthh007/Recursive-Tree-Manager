@@ -72,7 +72,7 @@ Hierarchical Node Manager/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/sreeshanthh007/hierarchical-node-manager.git
-   cd Hierarchical Node Manager
+   cd hierarchical-node-manager
    ```
 
 2. **Backend Configuration**
